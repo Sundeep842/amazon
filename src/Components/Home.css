@@ -2,13 +2,24 @@
   margin: 0px;
   padding: 0px;
 }
-
 .body {
-  object-fit: contain;
+  max-width: 1500px;
+  margin-left: auto;
+  background-color: whitesmoke;
 }
-.body img {
+.Homepr {
+  margin-right: 5px;
+  margin-left: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 1;
+}
+
+.body > img {
   height: 300px;
   width: 100%;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   max-width: 1500px;
+  z-index: -1;
+  margin-bottom: -15px;
 }

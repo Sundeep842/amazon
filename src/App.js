@@ -17,7 +17,6 @@ function App() {
           <Route exact path="/">
             <Header />
             <Home />
-            <h1>Home page</h1>
           </Route>
           <Route path="/contact">
             <h1>Contact</h1>
